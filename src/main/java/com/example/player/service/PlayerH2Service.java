@@ -29,7 +29,7 @@ public class PlayerH2Service implements PlayerRepository{
 
     @Override 
     public ArrayList<Player> getPlayers(){
-        List<Player> playerList = db.query("select * from player", new PlayerRowMapper());
+        List<Player> playerList = db.query("select * from team", new PlayerRowMapper());
         ArrayList<Player> arr = new ArrayList<>(playerList);
         return arr;
     }

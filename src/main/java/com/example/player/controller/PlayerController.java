@@ -20,7 +20,7 @@
     @Autowired
     private PlayerH2Service ps;
 
-    @GetMapping("/player")
+    @GetMapping("/players")
     public ArrayList<Player> getPlayers(){
         return ps.getPlayers();
     }

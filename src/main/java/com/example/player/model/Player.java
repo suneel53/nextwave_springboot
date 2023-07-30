@@ -20,7 +20,7 @@ public Player(int playerId, String playerName, int jerseyNumber, String role){
 public int getPlayerId(){
     return playerId;
 }
-public void setPlayerId(int playerid){
+public void setPlayerId(int playerId){
     this.playerId=playerId;
 }
 

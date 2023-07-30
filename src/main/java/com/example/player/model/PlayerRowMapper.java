@@ -19,7 +19,7 @@ public class PlayerRowMapper implements RowMapper<Player> {
     @Override
     public Player mapRow(ResultSet rs, int rowNum) throws SQLException{
         return new Player(
-            rs.getInt("palyerId"),
+            rs.getInt("playerId"),
             rs.getString("playerName"),
             rs.getInt("jerseyNumber"),
             rs.getString("role")
