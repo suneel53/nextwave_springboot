@@ -6,7 +6,7 @@
  * import java.util.*;
  * 
  */
- package com.example.player.controller;
+package com.example.player.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
